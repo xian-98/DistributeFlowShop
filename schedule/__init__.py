@@ -1,5 +1,4 @@
 import copy
-import datetime
 import os
 
 import matplotlib.pyplot as plt
@@ -10,8 +9,6 @@ from matplotlib import colors as mcolors
 
 deepcopy = copy.deepcopy
 pyplt = py.offline.plot
-dt = datetime.datetime
-tmdelta = datetime.timedelta
 COLORS = list(mcolors.CSS4_COLORS)
 LEN_COLORS = len(COLORS)
 init(autoreset=True)
